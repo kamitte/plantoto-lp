@@ -70,7 +70,7 @@ export default function LandingPage() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-row gap-4">
                 <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700">
                     <FaApple className="mr-2 w-5 h-5" />
@@ -108,11 +108,11 @@ export default function LandingPage() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=400"
+                src="/images/screenshot0.png"
                 alt="Plantoto App Screenshot"
                 width={300}
                 height={500}
-                className="rounded-3xl shadow-2xl mx-auto"
+                className="mx-auto"
               />
             </div>
           </div>
@@ -143,7 +143,7 @@ export default function LandingPage() {
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>シンプルながら必要な情報を網羅</span>
+                    <span>前いつした？がすぐ分かる</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
@@ -157,10 +157,10 @@ export default function LandingPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=300"
+                  src="/images/screenshot1.png"
                   alt="記録画面"
-                  width={300}
-                  height={500}
+                  width={480}
+                  height={480}
                   className="rounded-2xl shadow-xl mx-auto"
                 />
               </div>
@@ -170,10 +170,10 @@ export default function LandingPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative order-2 lg:order-1">
                 <Image
-                  src="/placeholder.svg?height=500&width=300"
+                  src="/images/screenshot2.png"
                   alt="スケジュール画面"
-                  width={300}
-                  height={500}
+                  width={480}
+                  height={480}
                   className="rounded-2xl shadow-xl mx-auto"
                 />
               </div>
@@ -183,7 +183,7 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">月ごとの頻度設定</h3>
                 <p className="text-lg text-gray-600">
-                  植物は季節毎に適切な水やり・肥料の頻度は変わります。そのため、月ごとに頻度を設定できるようになっています。
+                  植物は季節毎に適切な水やり・肥料の頻度が変わります。そのため、月ごとに頻度を設定できるようになっています。
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-2">
@@ -217,18 +217,14 @@ export default function LandingPage() {
                     <CheckCircle className="w-4 h-4 text-green-500" />
                     <span>アイコンのカスタマイズ</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>自分に合ったお手入れを</span>
-                  </li>
                 </ul>
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=300"
+                  src="/images/screenshot3.png"
                   alt="成長記録画面"
-                  width={300}
-                  height={500}
+                  width={480}
+                  height={480}
                   className="rounded-2xl shadow-xl mx-auto"
                 />
               </div>
@@ -238,10 +234,10 @@ export default function LandingPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative order-2 lg:order-1">
                 <Image
-                  src="/placeholder.svg?height=500&width=300"
+                  src="/images/screenshot4.png"
                   alt="ノート画面"
-                  width={300}
-                  height={500}
+                  width={480}
+                  height={480}
                   className="rounded-2xl shadow-xl mx-auto"
                 />
               </div>
@@ -336,7 +332,7 @@ export default function LandingPage() {
             <p className="text-xl text-green-100">
               あなたの植物ライフをもっと豊かに
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-row gap-4 justify-center">
               <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-6">
                   <FaApple className="mr-2 w-5 h-5" />
