@@ -71,18 +71,23 @@ export default function LandingPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700">
-                  <FaApple className="mr-2 w-5 h-5" />
-                  App Store
-                </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent"
-                >
-                  <FaGooglePlay className="mr-2 w-5 h-5" />
-                  Google Play
-                </Button>
+                <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700">
+                    <FaApple className="mr-2 w-5 h-5" />
+                    App Store
+                  </Button>
+                </Link>
+
+                <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent"
+                  >
+                    <FaGooglePlay className="mr-2 w-5 h-5" />
+                    Google Play
+                  </Button>
+                </Link>
               </div>
 
               <div className="flex items-center space-x-6 text-sm text-gray-500">
@@ -332,18 +337,23 @@ export default function LandingPage() {
               あなたの植物ライフをもっと豊かに
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-6">
-                <FaApple className="mr-2 w-5 h-5" />
-                App Store
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-green-600 text-lg px-8 py-6 bg-transparent"
-              >
-                <FaGooglePlay className="mr-2 w-5 h-5" />
-                Google Play
-              </Button>
+              <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-6">
+                  <FaApple className="mr-2 w-5 h-5" />
+                  App Store
+                </Button>
+              </Link>
+
+              <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-green-600 text-lg px-8 py-6 bg-transparent"
+                >
+                  <FaGooglePlay className="mr-2 w-5 h-5" />
+                  Google Play
+                </Button>
+              </Link>
             </div>
             <p className="text-sm text-green-200">ダウンロード無料 • 広告なし</p>
           </div>
@@ -371,12 +381,12 @@ export default function LandingPage() {
               <h3 className="font-semibold mb-4">サポート</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://plantoto.notion.site/Plantoto-1fab43ec676980198412d612c3bca95b" className="hover:text-white transition-colors">
                     使い方ガイド
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://forms.gle/SpVrMngbYVtNr7KE6" className="hover:text-white transition-colors">
                     お問い合わせ
                   </Link>
                 </li>
@@ -391,10 +401,10 @@ export default function LandingPage() {
           <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Plantoto. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="https://sites.google.com/view/plantoto/home/policy" className="text-gray-400 hover:text-white text-sm transition-colors">
                 プライバシーポリシー
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="https://sites.google.com/view/plantoto/home/term" className="text-gray-400 hover:text-white text-sm transition-colors">
                 利用規約
               </Link>
             </div>
