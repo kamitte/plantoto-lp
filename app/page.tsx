@@ -3,7 +3,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
   CheckCircle,
-  Leaf,
   Star,
   Mail,
   Calendar,
@@ -23,9 +22,13 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-white" />
-              </div>
+              <Image
+                src="/images/icon.png"
+                alt="Plantoto Icon"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
               <span className="text-xl font-bold text-gray-900">Plantoto</span>
             </div>
 
@@ -110,8 +113,8 @@ export default function LandingPage() {
               <Image
                 src="/images/device.png"
                 alt="Plantoto App Screenshot"
-                width={200}
-                height={300}
+                width={300}
+                height={400}
                 className="mx-auto"
               />
             </div>
@@ -362,9 +365,13 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center">
-                  <Leaf className="w-5 h-5 text-white" />
-                </div>
+                <Image
+                  src="/images/icon.png"
+                  alt="Plantoto Icon"
+                  width={32}
+                  height={32}
+                  className="rounded-lg"
+                />
                 <span className="text-xl font-bold">Plantoto</span>
               </div>
               <p className="text-gray-400">
