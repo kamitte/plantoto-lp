@@ -46,7 +46,7 @@ export default function LandingPage() {
       </header >
 
       {/* Hero Section */}
-      < section className="py-20 lg:py-32 bg-gradient-to-br from-green-50 via-white to-emerald-50" >
+      < section className="py-10 lg:py-32 bg-gradient-to-br from-green-50 via-white to-emerald-50" >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -108,10 +108,10 @@ export default function LandingPage() {
 
             <div className="relative">
               <Image
-                src="/images/screenshot0.png"
+                src="/images/device.png"
                 alt="Plantoto App Screenshot"
-                width={300}
-                height={500}
+                width={200}
+                height={300}
                 className="mx-auto"
               />
             </div>
@@ -123,9 +123,9 @@ export default function LandingPage() {
       < section id="features" className="py-20 bg-white" >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">植物愛好家のための便利機能</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Plantoto の機能</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              初心者からベテランまで、すべての植物愛好家が使いやすい機能を搭載しています。
+              初心者からベテランまで、すべての植物愛好家が使いやすい機能を搭載
             </p>
           </div>
 
