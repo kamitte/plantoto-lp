@@ -81,11 +81,11 @@ export default function LandingPage() {
                   </Button>
                 </Link>
 
-                <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer">
+                <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer" className="store-button">
                   <Button
                     variant="outline"
                     size="lg"
-                    className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent store-button"
+                    className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent"
                   >
                     <FaGooglePlay className="mr-2 w-5 h-5" />
                     Google Play
@@ -336,14 +336,14 @@ export default function LandingPage() {
               あなたの植物ライフをもっと豊かに
             </p>
             <div className="flex flex-row gap-4 justify-center">
-              <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
+              <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer" className="store-button">
                 <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-6">
                   <FaApple className="mr-2 w-5 h-5" />
                   App Store
                 </Button>
               </Link>
 
-              <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer">
+              <Link href="https://play.google.com/store/apps/details?id=com.esugo.plantCare" target="_blank" rel="noopener noreferrer" className="store-button">
                 <Button
                   size="lg"
                   variant="outline"
