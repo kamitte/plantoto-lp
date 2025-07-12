@@ -74,7 +74,7 @@ export default function LandingPage() {
               </div>
 
               <div className="flex flex-row gap-4">
-                <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer">
+                <Link href="https://apps.apple.com/app/apple-store/id6670186137?pt=127291601&ct=lp&mt=8" target="_blank" rel="noopener noreferrer" className="store-button">
                   <Button size="lg" className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700">
                     <FaApple className="mr-2 w-5 h-5" />
                     App Store
@@ -85,7 +85,7 @@ export default function LandingPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent"
+                    className="text-lg px-8 py-6 border-green-600 text-green-600 hover:bg-green-50 bg-transparent store-button"
                   >
                     <FaGooglePlay className="mr-2 w-5 h-5" />
                     Google Play
